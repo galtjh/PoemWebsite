@@ -11,5 +11,7 @@ body {
 }
 
 img {
-    width: 40px ;
+    width: 60%;
+    margin: 0 auto;
 }
+
