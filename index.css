@@ -9,3 +9,7 @@ body {
     text-shadow:5px 10px rgb(95, 207, 95); 
     text-align:center; 
 }
+
+img {
+    width: 60% ;
+}
