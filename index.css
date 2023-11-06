@@ -16,4 +16,24 @@ body {
     margin: 0 auto;
 }
 
+#paraHead {
+    text-align:center;
+    color:rgba(191, 20, 20, 0.902); 
+    font-family: serif, sans-serif; 
+}
+#para1 {
+    text-align:center;
+    color:blueviolet; 
+    font-family: serif, sans-serif;
+}
+#para2 {
+    text-align:center;
+    color: red; 
+    font-family: serif, sans-serif;
+}
 
+#para3 {
+    text-align:center;
+    color: olive; 
+    font-family: serif, sans-serif;
+}
