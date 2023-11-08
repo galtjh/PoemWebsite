@@ -1,3 +1,0 @@
-Thalia is publishing texts on GitHub
-on a new branch called gh-pages
-different from the main branch.
