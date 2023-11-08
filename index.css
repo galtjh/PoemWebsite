@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(240, 219, 221);
+    background-color: rgb(23, 23, 23);
+    color:antiquewhite; 
 }
 
 #thalia {
@@ -10,30 +11,47 @@ body {
     text-align:center; 
 }
 
-#poem {
-    width: 90% ;
+#poemImage {
+    width: 50% ;
     display: block;
     margin: 0 auto;
 }
 
 #paraHead {
     text-align:center;
-    color:rgba(191, 20, 20, 0.902); 
+    color:rgba(219, 109, 109, 0.902); 
     font-family: serif, sans-serif; 
+    font-weight:900; 
+    font-size:170%;
 }
 #para1 {
     text-align:center;
-    color:blueviolet; 
+    color:rgb(218, 223, 250); 
     font-family: serif, sans-serif;
 }
 #para2 {
     text-align:center;
-    color: red; 
+    color: rgb(39, 217, 131); 
     font-family: serif, sans-serif;
 }
 
 #para3 {
     text-align:center;
-    color: olive; 
+    color: rgb(230, 230, 65); 
     font-family: serif, sans-serif;
 }
+
+#button {
+    width: 8%;
+    border:10px solid #38ce9c;
+    border-radius:100% ;
+    color:rgb(242, 9, 149);   
+    display: block;
+    margin: 0 auto; 
+} 
+
+#button:hover {
+    background-color:darkolivegreen; 
+    color:yellow; 
+}
+
