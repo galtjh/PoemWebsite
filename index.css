@@ -1,15 +1,19 @@
 body {
     background-color:   rgb(20, 0, 10); 
     /* background: linear-gradient(to right, rgb(1, 10, 14), rgb(59, 71, 59), rgb(242, 126, 126)); */
-    color:antiquewhite; 
+    color:rgb(252, 249, 245); 
 }
 
 #thalia {
-    color:rgba(255, 0, 21, 0.787);
-    font-size:100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    text-shadow:5px 10px rgb(95, 207, 95); 
-    text-align:center; 
+  width=10%;
+  color:rgb(206, 44, 44);
+  background-color: rgb(126, 203, 126); 
+  padding: 10px;
+  border-radius: 5px;
+  font-family:Serif, Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 60px;
+  text-shadow:5.0px 5.5px rgb(204, 238, 150); 
+  text-align:center; 
 }
 
 #poemImage {
