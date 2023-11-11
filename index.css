@@ -1,6 +1,6 @@
 body {
-    /* background-color: rgb(23, 23, 23);  */
-    background: linear-gradient(to right, skyblue, lightgreen);   
+    background-color:   rgb(59, 71, 59); 
+    /* background: linear-gradient(to right, rgb(1, 10, 14), rgb(59, 71, 59), rgb(242, 126, 126)); */
     color:antiquewhite; 
 }
 
