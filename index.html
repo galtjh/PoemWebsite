@@ -6,6 +6,33 @@
 
   <body>
 
+      <p style="font-size: 20pt">Birthday Report: Private</p>
+      <p>Password: <input id="passWord" type="password" /></p>
+
+      <a id="anchor"
+      href="birthdayReport.html"
+      target="_blank"
+      onclick="return checkPasswd();"
+    >
+    Click here to submit password and read private report of birthday.
+    </a>
+
+    <br>
+
+    <script>
+      function checkPasswd() {
+        var passwd = document.getElementById("passWord");
+        var passwdEntered = passwd.value;
+        if (passwdEntered == "Thalia11yr") {
+          return true;
+        }
+        alert("Access denied! Na password dih lou!");
+        return false;
+      }
+    </script>
+
+    <br> 
+
     <div id="thalia">Writing <br> poems & codes</div>
 
     <!-- <p id="thalia">Peppa Pig & Tlia</p> -->
