@@ -6,7 +6,8 @@ body {
 
 #anchor {
     color: white; 
-    font-size: 20px;
+    border-radius: 7px; 
+    font-size: 30px;
 }
 
 #thalia {
