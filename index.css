@@ -6,8 +6,13 @@ body {
 
 #anchor {
     color: white; 
-    border-radius: 7px; 
+    border-radius: 10px; 
     font-size: 30px;
+}
+
+#anchor: hover {
+    background-color:darkolivegreen; 
+    color:yellow; 
 }
 
 #thalia {
@@ -59,7 +64,7 @@ body {
     color:rgb(242, 9, 149);   
     display: block;
     margin: 0 auto; 
-} 
+}
 
 #button:hover {
     background-color:darkolivegreen; 
