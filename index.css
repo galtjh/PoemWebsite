@@ -4,14 +4,19 @@ body {
     color:rgb(252, 249, 245); 
 }
 
-#anchor {
+#anchor1 {
     color: white; 
     border-radius: 20px; 
 }
 
-#anchor: hover {
+#anchor1 : hover {
     background-color:darkolivegreen; 
     color:yellow; 
+}
+
+#anchor2 {
+    background-color:antiquewhite;
+    color:white;
 }
 
 #thalia {
@@ -70,10 +75,7 @@ body {
     color:yellow; 
 }
 
-#zokam {
-    background-color:antiquewhite;
-    color:rgba(255, 0, 21, 0.787);
-}
+
 
 
 
