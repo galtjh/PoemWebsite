@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SVG Shapes</title>
+    <link rel="stylesheet" href="svg_thalia2.css"/>
 </head>
 
 <body>
-        <svg width="1000" height="1000">
+        <br> <br> 
+        <div id="marquee">
+                <marquee scrollamount="20"
+                direction="right" behavior="none"> 
+                <img src ="giphy.gif">
+                </marquee> 
+        </div>
+
+        <svg viewBox ="0 0 1000 1000"> <!-- x-axis, y-axis, width, height -->
                 
                 <rect 
-                x="200"y="200"
+                class = "rect1"
+                x="200" y="200"
                  width="300" height="200"
                  fill="firebrick"
                  stroke="blue"
@@ -138,9 +148,6 @@
                   stroke-width="3"
                   transform="scale(2.25)"
                 />
-           
-            
-           
              
           <text 
                 x="50" y="120" font-family="sans-serif, arial" font-size="15" fill="black">
